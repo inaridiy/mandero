@@ -1,0 +1,1 @@
+C:\Users\rinta\Documents\test\web-assembly-rust-typescript-template\target\wasm32-unknown-unknown\release\get_started_wasm.wasm: C:\Users\rinta\.cargo\registry\src\github.com-1ecc6299db9ec823\wasm-bindgen-0.2.74\build.rs C:\Users\rinta\Documents\test\web-assembly-rust-typescript-template\src\lib.rs

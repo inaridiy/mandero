@@ -1,0 +1,12 @@
+{
+    "include": ["src", "worker/test.worker.js", "worker/test.worker.js"],
+    "compilerOptions": {
+      "target": "es6",
+      "module": "esnext",
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "lib": ["webworker","DOM","es2019"],
+    }
+  }
