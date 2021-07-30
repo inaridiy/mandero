@@ -29,7 +29,7 @@ const loadMessage: Promise<MessageEvent<msg>> = new Promise((resolve) => {
     for (let y = 0; y < height; y += 1) {
       const a = (x + startX - width / 2) * pxPer + centerX;
       const b = (y - height / 2) * pxPer + centerY;
-      const isDivergence = check_divergence(a, b, 2048);
+      const isDivergence = check_divergence(a, b, 1024);
       pxs[x][y] = isDivergence;
     }
   }
